@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="filters" class="filters">
+        <div class="filters-panel">
+            <filter-component name="type" :data="data"></filter-component>
+            <filter-component name="cosmetics" :data="data"></filter-component>
+            <filter-component name="district" :data="data"></filter-component>
+            <filter-component name="bedrooms" :data="data"></filter-component>
+            <filter-component name="price" :data="data"></filter-component>
+            <filter-component name="space" :data="data"></filter-component>
+            <filter-component name="floor" :data="data"></filter-component>
+            <filter-component name="year" :data="data"></filter-component>
+        </div>
+        <div class="button-panel">
+            <button class="show-options-btn">Показать варианты</button>
+        </div>
+    </div>
+
+    <script src="./data.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
