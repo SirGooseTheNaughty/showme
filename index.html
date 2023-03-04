@@ -23,9 +23,10 @@
             <filter-component name="year" :data="data"></filter-component>
         </div>
         <div class="button-panel">
-            <button class="show-options-btn">Показать варианты</button>
+            <button class="show-options-btn" v-on:click="filter">Показать варианты</button>
         </div>
     </div>
+    <div class="result" style="white-space: break-spaces;"></div>
 
     <script src="./data.js"></script>
     <script type="module" src="./index.js"></script>
