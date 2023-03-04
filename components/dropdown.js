@@ -6,24 +6,37 @@ export const dropdown = {
         }
     },
     methods: {
-        toggle: function() {
-            this.isOpened = !this.isOpened;
+        open: function(event) {
+            if (!this.isOpened) {
+                setTimeout(() => this.isOpened = true, 5);
+            }
         },
-        value: function() {
-            return this.data[this.name].value
-        },
-        setValue: function(value) {
+        setValue: function(event, value) {
             this.data[this.name].value = value;
         },
-        getOptions: function() {
-            return this.data[this.name].options.filter((option) => option !== this.value());
-        }
+        close: function() {
+            this.isOpened = false;
+        },
+    },
+    mounted() {
+        document.body.addEventListener('click', this.close);
+    },
+    destroyed() {
+        document.body.removeEventListener('click', this.close);
+    },
+    computed: {
+        value: function() {
+            return this.data[this.name].value;
+        },
+        options: function() {
+            return this.data[this.name].options.filter((option) => option !== this.value);
+        },
     },
     template: `
-        <div class="dropdown" :class="this.isOpened ? 'opened' : ''" v-on:click="toggle">
-            <div class="value">{{ value() }}</div>
+        <div class="dropdown" :class="this.isOpened ? 'opened' : ''" v-on:click="open">
+            <div class="value">{{ value }}</div>
             <div class="options">
-                <div class="option" v-for="option in getOptions()" :key="option" v-on:click="() => setValue(option)">{{ option }}</div>
+                <div class="option" v-for="option in options" :key="option" v-on:click="(e) => setValue(e, option)">{{ option }}</div>
             </div>
         </div>
     `,
