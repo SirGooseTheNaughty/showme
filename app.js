@@ -25,7 +25,11 @@ export const appComponent = {
                 console.error('Ошибка запроса товаров', e);
                 this.isError = true;
             })
-            .finally(() => console.log(this.products) || (this.isLoading = false));
+            .finally(() => {
+                console.log(this.products)
+                this.isLoading = false;
+                this.filter();
+            });
     },
     methods: {
         preformProducts: function(products) {
