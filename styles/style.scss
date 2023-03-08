@@ -114,8 +114,9 @@
 
     .dots {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
+        gap: calc((100% / 5) - 46px);
 
         .dot {
             width: 46px;

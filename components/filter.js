@@ -1,5 +1,5 @@
 export const filter = {
-    props: ['name', 'data'],
+    props: ['name', 'data', 'default-value'],
     methods: {
         getTitle: function() {
             return this.data[this.name].title;
@@ -17,7 +17,7 @@ export const filter = {
     template: `
         <div class="filter">
             <div class="filter__title">{{ getTitle() }}</div>
-            <component :is="getType()" :name="name" :data="data"></component>
+            <component :is="getType()" :name="name" :default-value="defaultValue" :data="data"></component>
             <component v-if="!!getParameters()" :is="getParameters()"></component>
         </div>
     `,

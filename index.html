@@ -13,9 +13,9 @@
 <body>
     <div id="filters" class="filters">
         <div class="filters-panel">
-            <filter-component name="type" :data="data"></filter-component>
-            <filter-component name="cosmetics" :data="data"></filter-component>
-            <filter-component name="district" :data="data"></filter-component>
+            <filter-component name="type" default-value="Любая" :data="data"></filter-component>
+            <filter-component name="cosmetics" default-value="Любая" :data="data"></filter-component>
+            <filter-component name="district" default-value="Все районы" :data="data"></filter-component>
             <filter-component name="bedrooms" :data="data"></filter-component>
             <filter-component name="price" :data="data"></filter-component>
             <filter-component name="space" :data="data"></filter-component>
@@ -28,6 +28,9 @@
     </div>
     <div class="result" style="white-space: break-spaces;"></div>
 
+    <script>
+        window.dev = true;
+    </script>
     <script src="./data.js"></script>
     <script type="module" src="./index.js"></script>
 </body>

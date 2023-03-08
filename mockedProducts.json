@@ -1,0 +1,282 @@
+{
+    "partuid": 426586057031,
+    "filter": "y",
+    "filters": {
+        "sort": false,
+        "search": false,
+        "filters": []
+    },
+    "total": 75,
+    "isElastic": true,
+    "products": [
+        {
+            "uid": "285602954451",
+            "title": "Hide",
+            "sku": "",
+            "text": "<span style=\"background-color: rgb(255, 255, 255);\">Москва, 1-й Сетуньский пр-д<\/span>",
+            "mark": "",
+            "quantity": "",
+            "portion": "0",
+            "unit": "",
+            "single": "",
+            "price": "64000000.0000",
+            "priceold": "",
+            "descr": "Москва, 1-й Сетуньский пр-д, вл<br \/><br \/>",
+            "gallery": "[{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild3738-3334-4431-b161-346634643339\\\/Group_35.png\"},{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild3763-3539-4037-a662-313136373437\\\/Group_36.png\"}]",
+            "buttonlink": "",
+            "buttontarget": "",
+            "json_options": "",
+            "sort": "10",
+            "url": "http:\/\/showmemoscow.com\/tproduct\/1-285602954451-hide",
+            "pack_label": "lwh",
+            "pack_x": "0",
+            "pack_y": "0",
+            "pack_z": "0",
+            "pack_m": "0",
+            "partuids": "[\"564602216391\"]",
+            "externalid": "xjHdagAd52EClc1ra9xD",
+            "editions": [
+                {
+                    "uid": "285602954451",
+                    "price": null,
+                    "priceold": "",
+                    "sku": "",
+                    "quantity": "",
+                    "img": "https:\/\/static.tildacdn.com\/tild3738-3334-4431-b161-346634643339\/Group_35.png"
+                }
+            ],
+            "characteristics": [
+                {
+                    "title": "type",
+                    "value": "Апартаменты"
+                },
+                {
+                    "title": "cosmetics",
+                    "value": "Без отделки"
+                },
+                {
+                    "title": "district",
+                    "value": "Внутри Бульварного"
+                },
+                {
+                    "title": "bedrooms",
+                    "value": "4"
+                },
+                {
+                    "title": "space",
+                    "value": "164"
+                },
+                {
+                    "title": "floor",
+                    "value": "5"
+                },
+                {
+                    "title": "year",
+                    "value": "2023"
+                }
+            ]
+        },
+        {
+            "uid": "770679888541",
+            "title": "Capital Towers",
+            "sku": "",
+            "text": "",
+            "mark": "",
+            "quantity": "",
+            "portion": "0",
+            "unit": "",
+            "single": "",
+            "price": "24000000.0000",
+            "priceold": "",
+            "descr": "<span style=\"background-color: rgb(255, 255, 255);\">Москва, Краснопресненская наб., 14с1<\/span>",
+            "gallery": "[{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild3434-3832-4832-b037-623339383038\\\/Group_3.png\"},{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild6264-6530-4465-b664-656365636134\\\/Group_4.png\"}]",
+            "buttonlink": "",
+            "buttontarget": "",
+            "json_options": "",
+            "sort": "20",
+            "url": "http:\/\/showmemoscow.com\/withtrim\/tproduct\/530997186-770679888541-capital-towers",
+            "pack_label": "lwh",
+            "pack_x": "0",
+            "pack_y": "0",
+            "pack_z": "0",
+            "pack_m": "0",
+            "partuids": "[\"564602216391\",\"350045116261\"]",
+            "externalid": "5AT7BHSOf5xXHiRIirhV",
+            "editions": [
+                {
+                    "uid": "770679888541",
+                    "price": null,
+                    "priceold": "",
+                    "sku": "",
+                    "quantity": "",
+                    "img": "https:\/\/static.tildacdn.com\/tild3434-3832-4832-b037-623339383038\/Group_3.png"
+                }
+            ],
+            "characteristics": [
+                {
+                    "title": "type",
+                    "value": "Квартиры"
+                },
+                {
+                    "title": "cosmetics",
+                    "value": "С отделкой"
+                },
+                {
+                    "title": "district",
+                    "value": "Внутри Садового"
+                },
+                {
+                    "title": "bedrooms",
+                    "value": "2"
+                },
+                {
+                    "title": "space",
+                    "value": "68"
+                },
+                {
+                    "title": "floor",
+                    "value": "11"
+                },
+                {
+                    "title": "year",
+                    "value": "2025"
+                }
+            ]
+        },
+        {
+            "uid": "403712779531",
+            "title": "ЖК Абрикосов",
+            "sku": "",
+            "text": "",
+            "mark": "",
+            "quantity": "",
+            "portion": "0",
+            "unit": "",
+            "single": "",
+            "price": "28000000.0000",
+            "priceold": "",
+            "descr": "Москва, Потаповский пер., 6&nbsp;",
+            "gallery": "[{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild6361-6564-4539-a330-353434613164\\\/Group_26.png\"},{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild6433-6235-4066-b834-313364666164\\\/Group_24.png\"}]",
+            "buttonlink": "",
+            "buttontarget": "",
+            "json_options": "",
+            "sort": "30",
+            "url": "http:\/\/showmemoscow.com\/withtrim\/tproduct\/530997186-403712779531-zhk-abrikosov",
+            "pack_label": "lwh",
+            "pack_x": "0",
+            "pack_y": "0",
+            "pack_z": "0",
+            "pack_m": "0",
+            "partuids": "[\"564602216391\",\"350045116261\"]",
+            "externalid": "ijSmF73gcnlAehPGTOtD",
+            "editions": [
+                {
+                    "uid": "403712779531",
+                    "price": null,
+                    "priceold": "",
+                    "sku": "",
+                    "quantity": "",
+                    "img": "https:\/\/static.tildacdn.com\/tild6361-6564-4539-a330-353434613164\/Group_26.png"
+                }
+            ],
+            "characteristics": [
+                {
+                    "title": "type",
+                    "value": "Квартиры"
+                },
+                {
+                    "title": "cosmetics",
+                    "value": "С мебелью"
+                },
+                {
+                    "title": "district",
+                    "value": "Внутри ТТК"
+                },
+                {
+                    "title": "bedrooms",
+                    "value": "3"
+                },
+                {
+                    "title": "space",
+                    "value": "120"
+                },
+                {
+                    "title": "floor",
+                    "value": "2"
+                },
+                {
+                    "title": "year",
+                    "value": "2024"
+                }
+            ]
+        },
+        {
+            "uid": "302302595611",
+            "title": "Roza Rossa",
+            "sku": "",
+            "text": "",
+            "mark": "",
+            "quantity": "",
+            "portion": "0",
+            "unit": "",
+            "single": "",
+            "price": "120000000.0000",
+            "priceold": "",
+            "descr": "Москва, ул. Зубовская 7",
+            "gallery": "[{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild3461-3133-4566-a231-333735376536\\\/Group_37.png\"},{\"img\":\"https:\\\/\\\/static.tildacdn.com\\\/tild3564-3461-4265-b636-393034666638\\\/Group_38.png\"}]",
+            "buttonlink": "",
+            "buttontarget": "",
+            "json_options": "",
+            "sort": "40",
+            "url": "http:\/\/showmemoscow.com\/withtrim\/tproduct\/530997186-302302595611-roza-rossa",
+            "pack_label": "lwh",
+            "pack_x": "0",
+            "pack_y": "0",
+            "pack_z": "0",
+            "pack_m": "0",
+            "partuids": "[\"329941507421\",\"564602216391\",\"105160369861\",\"350045116261\",\"571840244321\"]",
+            "externalid": "Cg4tSg67SoT3ASARDjv5",
+            "editions": [
+                {
+                    "uid": "302302595611",
+                    "price": null,
+                    "priceold": "",
+                    "sku": "",
+                    "quantity": "",
+                    "img": "https:\/\/static.tildacdn.com\/tild3461-3133-4566-a231-333735376536\/Group_37.png"
+                }
+            ],
+            "characteristics": [
+                {
+                    "title": "type",
+                    "value": "Апартаменты"
+                },
+                {
+                    "title": "cosmetics",
+                    "value": "С мебелью"
+                },
+                {
+                    "title": "district",
+                    "value": "Московская область"
+                },
+                {
+                    "title": "bedrooms",
+                    "value": "5+"
+                },
+                {
+                    "title": "space",
+                    "value": "200"
+                },
+                {
+                    "title": "floor",
+                    "value": "1"
+                },
+                {
+                    "title": "year",
+                    "value": "2026"
+                }
+            ]
+        }
+    ],
+    "options": []
+}

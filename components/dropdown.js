@@ -1,5 +1,5 @@
 export const dropdown = {
-    props: ['name', 'data'],
+    props: ['name', 'data', 'default-value'],
     data() {
         return {
             isOpened: false,
@@ -29,14 +29,16 @@ export const dropdown = {
             return this.data[this.name].value;
         },
         options: function() {
-            return this.data[this.name].options.filter((option) => option !== this.value);
+            return this.value
+                ? [null, ...this.data[this.name].options.filter((option) => option !== this.value)]
+                : [...this.data[this.name].options];
         },
     },
     template: `
         <div class="dropdown" :class="this.isOpened ? 'opened' : ''" v-on:click="open">
-            <div class="value">{{ value }}</div>
+            <div class="value">{{ value || defaultValue }}</div>
             <div class="options">
-                <div class="option" v-for="option in options" :key="option" v-on:click="(e) => setValue(e, option)">{{ option }}</div>
+                <div class="option" v-for="option in options" :key="option" v-on:click="(e) => setValue(e, option)">{{ option || defaultValue }}</div>
             </div>
         </div>
     `,

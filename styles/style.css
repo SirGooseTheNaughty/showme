@@ -96,8 +96,9 @@
 }
 .filters .dots {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: calc(20% - 46px);
 }
 .filters .dots .dot {
   width: 46px;
